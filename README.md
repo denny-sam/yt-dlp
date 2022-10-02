@@ -557,12 +557,12 @@ You can also fork the project on github and run your fork's [build workflow](.gi
                                     live streams
     --download-sections REGEX       Download only chapters whose title matches
                                     the given regular expression. Time ranges
-                                    prefixed by a "*" can also be used in place
+                                    prefixed by a "\*" can also be used in place
                                     of chapters to download the specified range.
                                     Needs ffmpeg. This option can be used
                                     multiple times to download multiple
                                     sections, e.g. --download-sections
-                                    "*10:15-inf" --download-sections "intro"
+                                    "\*10:15-inf" --download-sections "intro"
     --downloader [PROTO:]NAME       Name or path of the external downloader to
                                     use (optionally) prefixed by the protocols
                                     (http, ftp, m3u8, dash, rstp, rtmp, mms) to
